@@ -17,6 +17,8 @@ class Student {
         string first_name;
         string last_name;
     public:
+        Student(): age(0), standard(0), first_name("none"), last_name("none") {}
+        ~Student() {}
         void set_age(int a) { age = a; }
         void set_standard(int s) { standard = s; }
         void set_first_name(string f) { first_name = f; }
