@@ -1,7 +1,7 @@
 # LC_HR_Cpp
 **C++ exercises**
 
-Some solutions to the questions on HackerRank and LeetCode.
+Some solutions to the questions on HackerRank and LeetCode.\
 For each file, the first capitalized letter are indicating the difficulty of the question:<br />
 E - easy \
 M - medium \
