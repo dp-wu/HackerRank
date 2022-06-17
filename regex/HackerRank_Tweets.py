@@ -3,7 +3,7 @@ import re
 
 
 def main():
-    pattern = r"((?i)hackerrank)"
+    pattern = r"(?i)hackerrank"
     counter = 0
     n = int(input())
     for i in range(n):
