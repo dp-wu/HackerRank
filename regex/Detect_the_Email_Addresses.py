@@ -10,8 +10,8 @@ def main():
     for i in range(n):
         s = input()
         found = re.findall(email, s)
-        for i in found:
-            result.add(i)
+        for j in found:
+            result.add(j)
     
     print(*(sorted(result)), sep=";")
 main()
